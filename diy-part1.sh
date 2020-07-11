@@ -12,4 +12,5 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-sed -i '$a src-git smartdns https://github.com/pymumu/smartdns' feeds.conf.default
+#sed -i '$a src-git smartdns https://github.com/pymumu/smartdns' feeds.conf.default
+git clone https://github.com/pymumu/smartdns package/smartdns
